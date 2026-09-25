@@ -391,9 +391,10 @@ header {
     cursor: pointer;
     border-bottom: 2px solid transparent;
 }
-.tabBtn.active{
-    color:#fe4821;
-    border-bottom-color:#fe4821 ;
+
+.tabBtn.active {
+    color: #fe4821;
+    border-bottom-color: #fe4821;
 }
 
 .tabBtn svg {
@@ -498,11 +499,12 @@ header {
 }
 
 .borderLeft {
-     border-left: 4px solid #f59e0b;
-     background-color: #fffbeb;
-     padding: 16px;
-     border-radius: 8px;
+    border-left: 4px solid #f59e0b;
+    background-color: #fffbeb;
+    padding: 16px;
+    border-radius: 8px;
 }
+
 .nextMealBtn {
     margin-top: 24px;
     padding: 12px 20px;
@@ -518,4 +520,155 @@ header {
 
 .nextMealBtn:hover {
     background-color: #dc3818;
+}
+
+@media (max-width: 1024px) {
+    #heroSection {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .leftHero,
+    .rightHero {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .leftHero {
+        height: 450px;
+    }
+
+    .rightHero {
+        padding: 0 0 24px
+    }
+
+    .mealDetails {
+        margin: 0;
+        gap: 16px;
+
+    }
+
+    .mealDetailsLeft {
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }
+
+    .mealDetailsRight {
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        margin-top: 20px;
+    }
+
+    .inerDiv-H {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .leftDiv {
+        min-width: 0;
+        gap: 10px;
+    }
+
+    .leftDiv h1 {
+        font-size: 20px;
+    }
+
+    .leftDiv p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 42px;
+        height: 42px;
+    }
+
+    .rightDiv {
+        margin-left: auto;
+        gap: 16px;
+    }
+
+    .leftHero {
+        height: 360px;
+    }
+
+    .mealRating {
+        top: 12px;
+        left: 12px;
+        gap: 6px;
+        font-size: 13px;
+    }
+
+    .mealInfoContainer {
+        left: 10px;
+        right: 10px;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .mealInfoContainer p {
+        font-size: 12px;
+    }
+
+    .mealDetails {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .mealDetailsLeft {
+        flex: 1 1 180px;
+    }
+
+    .mealDetailsLeft h2 {
+        font-size: 26px;
+    }
+
+    .mealDetailsLeft p {
+        line-height: 1.6;
+    }
+
+    .spans {
+        flex-wrap: wrap;
+    }
+
+    .mealTabs {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .tabBtn {
+        justify-content: center;
+        padding: 12px 4px;
+        font-size: 14px;
+    }
+
+    #nutritionGrid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    #ingredientsPanel {
+        padding: 16px;
+    }
+
+    .preprationNoticContainer,
+    .tip {
+        align-items: flex-start;
+    }
+
+    .noticText,
+    .tip p {
+        min-width: 0;
+        overflow-wrap: anywhere;
+        line-height: 1.6;
+    }
+
+    .nextMealBtn {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
