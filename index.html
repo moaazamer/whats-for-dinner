@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's For Dinner</title>
+    <link rel="stylesheet" href="./Styling/Style.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="container-Header">
+            <div class="inerDiv-H">
+                <div class="leftDiv">
+                    <div class="logo">
+                        <svg class="svg-inline--fa fa-utensils" aria-hidden="true" focusable="false" data-prefix="fas"
+                            data-icon="utensils" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z">
+                            </path>
+                        </svg>
+
+                    </div>
+                    <div>
+                        <h1>What's For Dinner</h1>
+                        <p>Your daily meal inspiration</p>
+                    </div>
+
+                </div>
+                <div class="rightDiv">
+                    <svg class="svg-inline--fa fa-bookmark" aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="bookmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+                        data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z">
+                        </path>
+                    </svg>
+                    <svg class="svg-inline--fa fa-clock-rotate-left" aria-hidden="true" focusable="false"
+                        data-prefix="fas" data-icon="clock-rotate-left" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z">
+                        </path>
+                    </svg>
+                    <svg class="svg-inline--fa fa-gear" aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="gear" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z">
+                        </path>
+                    </svg>
+                    <img class="avatar-4" src="./Images/avatar-4.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section id="heroSection">
+            <div class="leftHero">
+                <img class="imageHero" src="./Images/photo-1585032226651-759b368d7246.avif" alt="">
+                <div class="mealRating">
+                    <svg class="svg-inline--fa fa-star" aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                        data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+                        </path>
+                    </svg>
+
+                    <span>4.6</span>
+                    <span>(289 reviews)</span>
+
+                </div>
+                <div class="mealInfo">
+                    <div class="mealInfoContainer">
+                        <div class="prepTime">
+                            <svg class="svg-inline--fa fa-clock" aria-hidden="true" focusable="false" data-prefix="fas"
+                                data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z">
+                                </path>
+                            </svg>
+
+                            <p>Prep Time</p>
+                            <p>20 min</p>
+
+                        </div>
+                        <div class="cookTime">
+                            <svg class="svg-inline--fa fa-fire-burner" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="fire-burner" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 640 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M293.5 3.8c19.7 17.8 38.2 37 55.5 57.7c7.9-9.9 16.8-20.7 26.5-29.5c5.6-5.1 14.4-5.1 20 0c24.7 22.7 45.6 52.7 60.4 81.1c14.5 28 24.2 58.8 24.2 79C480 280 408.7 352 320 352c-89.7 0-160-72.1-160-159.8c0-26.4 12.7-60.7 32.4-92.6c20-32.4 48.1-66.1 81.4-95.8c2.8-2.5 6.4-3.8 10-3.7c3.5 0 7 1.3 9.8 3.8zM370 273c30-21 38-63 20-96c-2-4-4-8-7-12l-36 42s-58-74-62-79c-30 37-45 58-45 82c0 49 36 78 81 78c18 0 34-5 49-15zM32 288c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32s-14.3 32-32 32v64H544V320c-17.7 0-32-14.3-32-32s14.3-32 32-32h32c17.7 0 32 14.3 32 32v96c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V416c0-17.7 14.3-32 32-32V288zM320 480a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM192 480a32 32 0 1 0 0-64 32 32 0 1 0 0 64z">
+                                </path>
+                            </svg>
+                            <p>Cook Time</p>
+                            <p>30 min</p>
+                        </div>
+                        <div class="servings">
+                            <svg class="svg-inline--fa fa-users" aria-hidden="true" focusable="false" data-prefix="fas"
+                                data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z">
+                                </path>
+                            </svg>
+                            <p>Servings</p>
+                            <p>4 people</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="rightHero">
+                <div>
+                    <div class="mealDetails">
+                        <div class="mealDetailsLeft">
+                            <div class="spans">
+                                <span class="sE">Easy</span>
+                                <span class="sA">Asian</span>
+                            </div>
+                            <h2>Vegetable Curry</h2>
+                            <p>Hearty vegetarian curry with coconut milk</p>
+                        </div>
+                        <div class="mealDetailsRight">
+                            <button class="btn btnOne">
+                                <svg class="svg-inline--fa fa-bookmark" aria-hidden="true" focusable="false"
+                                    data-prefix="fas" data-icon="bookmark" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 384 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="btn btnTwo">
+                                <svg class="svg-inline--fa fa-share-nodes" aria-hidden="true" focusable="false"
+                                    data-prefix="fas" data-icon="share-nodes" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="preparationNotice">
+                    <div class="preprationNoticContainer">
+                        <svg class="svg-inline--fa fa-triangle-exclamation" aria-hidden="true" focusable="false"
+                            data-prefix="fas" data-icon="triangle-exclamation" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z">
+                            </path>
+                        </svg>
+                        <div class="noticText">
+                            <p>Extended Preparation Time</p>
+                            <p>This recipe requires more than 45 minutes to prepare. Plan accordingly!</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="recipeSection">
+                    <div class="mealTabs">
+                        <button type="button" class="tabBtn" id="ingredientsBtn">
+                            <svg class="svg-inline--fa fa-list-check" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="list-check" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M152.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 113C-2.3 103.6-2.3 88.4 7 79s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM224 96c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zM160 416c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-17.7 0-32-14.3-32-32zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                                </path>
+                            </svg>
+
+                            <span>Ingredients</span>
+                        </button>
+                        <button type="button" class="tabBtn" id="instructionsBtn">
+                            <svg class="svg-inline--fa fa-book-open" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="book-open" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 576 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z">
+                                </path>
+                            </svg>
+
+                            <span>Instructions</span>
+                        </button>
+                        <button type="button" class="tabBtn" id="nutritionBtn">
+                            <svg class="svg-inline--fa fa-chart-pie" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="chart-pie" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 576 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M304 240V16.6c0-9 7-16.6 16-16.6C443.7 0 544 100.3 544 224c0 9-7.6 16-16.6 16H304zM32 272C32 150.7 122.1 50.3 239 34.3c9.2-1.3 17 6.1 17 15.4V288L412.5 444.5c6.7 6.7 6.2 17.7-1.5 23.1C371.8 495.6 323.8 512 272 512C139.5 512 32 404.6 32 272zm526.4 16c9.3 0 16.6 7.8 15.4 17c-7.7 55.9-34.6 105.6-73.9 142.3c-6 5.6-15.4 5.2-21.2-.7L320 288H558.4z">
+                                </path>
+                            </svg>
+
+                            <span>Nutrition</span>
+                        </button>
+                        <button type="button" class="tabBtn" id="chefTipsBtn">
+                            <svg class="svg-inline--fa fa-lightbulb" aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="lightbulb" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z">
+                                </path>
+                            </svg>
+
+                            <span>Chef's Tips</span>
+                        </button>
+
+                    </div>
+                    <div class="mealContent">
+                        <div id="ingredientsPanel">
+                            <ol>
+                                <li>2 potatoes, cubed</li>
+                                <li>1 cauliflower, florets</li>
+                                <li>2 carrots, sliced</li>
+                                <li>1 can chickpeas</li>
+                                <li>400ml coconut milk</li>
+                                <li>
+                                    3 tablespoons curry powder</li>
+                                <li>1 onion, diced</li>
+                                <li>
+                                    3 cloves garlic, minced</li>
+                                <li>Fresh spinach</li>
+
+                            </ol>
+                        </div>
+                        <div id="instructionsPanel" hidden>
+                            <ol class="instructionsList">
+                                <li>
+                                    Heat oil in a large pot. Sauté onion until soft, add garlic and curry powder, cook
+                                    for 1
+                                    minute.</li>
+                                <li>Add potatoes and carrots, cook for 5 minutes.</li>
+                                <li>
+                                    Pour in coconut milk and 1 cup water. Bring to simmer.</li>
+                                <li>Add cauliflower and chickpeas. Cook for 20 minutes until vegetables are tender.</li>
+                                <li>Stir in fresh spinach and cook until wilted.</li>
+                                <li>Serve hot over basmati rice or with naan bread.</li>
+                            </ol>
+                        </div>
+                        <div id="nutritionPanel" hidden>
+                            <div id="nutritionGrid">
+
+                                <div class="nutritionCard">
+                                    <div class="cal">
+                                        <svg class="svg-inline--fa fa-fire" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="fire" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-4.5-9-16-9.6-22.5-2l-25.2 29.3c-6.6 7.6-18.5 7.4-24.7-.5c-16.5-21-46-58.5-62.8-79.8c-6.3-8-18.3-8.1-24.7-.1c-33.8 42.5-50.8 69.3-50.8 99.4C112 375.4 162.6 416 225.7 416z">
+                                            </path>
+                                        </svg>
+                                        <span>Calories</span>
+
+
+                                    </div>
+                                    <span class="nutritionValue">380 kcal</span>
+                                </div>
+                                <div class="nutritionCard">
+                                    <div class="protein">
+                                        <svg class="svg-inline--fa fa-dumbbell" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="dumbbell" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M96 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V224v64V448c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V384H64c-17.7 0-32-14.3-32-32V288c-17.7 0-32-14.3-32-32s14.3-32 32-32V160c0-17.7 14.3-32 32-32H96V64zm448 0v64h32c17.7 0 32 14.3 32 32v64c17.7 0 32 14.3 32 32s-14.3 32-32 32v64c0 17.7-14.3 32-32 32H544v64c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32V288 224 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32zM416 224v64H224V224H416z">
+                                            </path>
+                                        </svg>
+                                        <span>Protein</span>
+
+
+                                    </div>
+                                    <span class="nutritionValue">14g</span>
+                                </div>
+                                <div class="nutritionCard">
+                                    <div class="carb">
+                                        <svg class="svg-inline--fa fa-wheat-awn" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="wheat-awn" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M505 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L383 95c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l88-88zM305.5 27.3c-6.2-6.2-16.4-6.2-22.6 0L271.5 38.6c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8l-11.3-11.3c-6.2-6.2-16.4-6.2-22.6 0l-11.3 11.3c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8L101.8 231c-6.2-6.2-16.4-6.2-22.6 0L67.9 242.3c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4L9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l68.9-68.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-21.8-21.8-49.6-34.1-78.1-36.9l31.9-31.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-21.8-21.8-49.6-34.1-78.1-36.9l31.9-31.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0L486.5 231c6.2-6.2 6.2-16.4 0-22.6L475.2 197c-5.2-5.2-10.6-9.8-16.4-13.9L505 137c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-59.4 59.4c-20.6-4.4-42-3.7-62.3 2.1c6.1-21.3 6.6-43.8 1.4-65.3L409 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L329.1 52.9c-3.7-5-7.8-9.8-12.4-14.3L305.5 27.3z">
+                                            </path>
+                                        </svg>
+                                        <span>Carbohydrates</span>
+
+
+                                    </div>
+                                    <span class="nutritionValue">48g</span>
+                                </div>
+                                <div class="nutritionCard">
+                                    <div class="fat">
+                                        <svg class="svg-inline--fa fa-droplet" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="droplet" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0h1.8c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z">
+                                            </path>
+                                        </svg>
+                                        <span>Fat</span>
+
+
+
+                                    </div>
+                                    <span class="nutritionValue">16g</span>
+                                </div>
+                                <div class="nutritionCard">
+                                    <div class="fiber">
+                                        <svg class="svg-inline--fa fa-seedling" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="seedling" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0h32c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64H64c123.7 0 224 100.3 224 224v32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320C100.3 320 0 219.7 0 96z">
+                                            </path>
+                                        </svg>
+                                        <span>Fiber</span>
+
+
+                                    </div>
+                                    <span class="nutritionValue">12g</span>
+                                </div>
+                                <div class="nutritionCard">
+                                    <div class="sodium">
+                                        <svg class="svg-inline--fa fa-cube" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="cube" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M234.5 5.7c13.9-5 29.1-5 43.1 0l192 68.6C495 83.4 512 107.5 512 134.6V377.4c0 27-17 51.2-42.5 60.3l-192 68.6c-13.9 5-29.1 5-43.1 0l-192-68.6C17 428.6 0 404.5 0 377.4V134.6c0-27 17-51.2 42.5-60.3l192-68.6zM256 66L82.3 128 256 190l173.7-62L256 66zm32 368.6l160-57.1v-188L288 246.6v188z">
+                                            </path>
+                                        </svg>
+                                        <span>Sodium</span>
+
+
+
+                                    </div>
+                                    <span class="nutritionValue">480mg</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="chefTipsPanel" hidden>
+                            <div id="chefTips">
+                                <div class="borderLeft tip">
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
+                                        </path>
+                                    </svg>
+                                    <p>Don't press down on burgers while cooking - keeps them juicy</p>
+
+                                </div>
+                                <div class="borderLeft tip">
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
+                                        </path>
+                                    </svg>
+                                    <p>Make indent in center to prevent burger from puffing up</p>
+
+                                </div>
+                                <div class="borderLeft tip">
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
+                                        </path>
+                                    </svg>
+                                    <p>Let patties rest for 2-3 minutes before serving</p>
+
+                                </div>
+                                <div class="borderLeft tip">
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z">
+                                        </path>
+                                    </svg>
+                                    <p>Toast buns for better texture and flavor</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button type="button" id="nextMealBtn" class="nextMealBtn">
+                    Try Another Recipe
+
+                </button>
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./Java-Script/main.js"></script>
+</body>
+
+</html>
